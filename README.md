@@ -8,7 +8,7 @@ Then execute python mosaic-demo.py.
 
 Takes about 2 minutes to blend the images into a seamless mosaic.
 
-You MUST have the ~/.ExifTools_config in place to write the exif tags that enblend needs into the tifs gdal produces.
+You MUST have the ~/.ExifTool_config in place to write the exif tags that enblend needs into the tifs gdal produces.
 <pre><code>
 %Image::ExifTool::UserDefined = (
     # All EXIF tags are added to the Main table, and WriteGroup is used to
